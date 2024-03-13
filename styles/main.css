@@ -1,0 +1,41 @@
+main {
+    flex: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main__info{
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p {
+    font-size: 18px;
+    margin: 20px 0 28px;
+}
+
+.main__info div {
+    display: flex;
+    column-gap: 32px;
+    flex-wrap: nowrap;
+}
+
+.main__info div a, .main__info div button {
+    width: 50%;
+    padding: 13px 0;
+    border-radius: 50px;
+
+    font-size:  18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3;
+
+    transform: skew(-12deg);
+}
+
